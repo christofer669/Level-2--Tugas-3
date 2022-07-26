@@ -1,0 +1,221 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.container-fluid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(42, 38, 61, 0.7);
+    overflow: hidden;
+}
+
+.icon {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 600px;
+    top: 44px;
+
+    background: url(IconBali.svg);
+}
+
+.content {
+    position: absolute;
+    left: 476px;
+    right: 476px;
+    top: 223px;
+    bottom: 329px;
+    font-family: pacifico, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    text-align: center;
+
+}
+
+.container-fluid .content p:nth-child(2) {
+    color: #FCB371;
+}
+
+.container-fluid .content p:nth-child(1) {
+    color: #fff;
+}
+
+.motto p {
+    position: absolute;
+    width: 124px;
+    height: 17px;
+    left: 630px;
+    top: 405px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn button:nth-child(1) {
+    box-sizing: border-box;
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    left: 520px;
+    top: 481px;
+    background-color: inherit;
+    border: 2px solid #FCB371;
+    font-family: pacifico, sans-serif;
+    color: #FCB371;
+    border-radius: 6px;
+}
+
+.btn button:nth-child(2) {
+    box-sizing: border-box;
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    left: 720px;
+    top: 481px;
+    color: #fff;
+    font-family: pacifico, sans-serif;
+    background: #FCB371;
+    border-radius: 6px;
+    border: none;
+
+}
+.back img{
+    box-sizing: border-box;
+position: absolute;
+width: 24px;
+height: 24px;
+left: 80px;
+top: 80px;
+}
+.container-fluid .title{
+    position: absolute;
+left: 540px;
+right: 541px;
+top: 171px;
+bottom: 465px;
+
+font-family: pacifico, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 84px;
+text-align: center;
+
+color: #FCB371;
+}
+.container-fluid .word{
+    position: absolute;
+width: 768px;
+height: 190px;
+left: 310px;
+top: 301px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.container-fluid .title-reservation{
+    position: absolute;
+left: 518px;
+right: 519px;
+top: 58px;
+bottom: 578px;
+
+font-family: pacifico, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 84px;
+text-align: center;
+
+color: #FCB371;
+}
+.form .form-control{
+    display: grid;
+    grid-row: auto;
+    grid-template: auto;
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    width: 382px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.form .form-control:nth-child(1){
+    left: calc(50% - 382px/2);
+    top: calc(50% - 46px/2 - 128px);
+}
+.form .form-control:nth-child(2){
+left: calc(50% - 382px/2 + 0.5px);
+top: calc(50% - 46px/2 - 66px);
+}
+.form .form-control:nth-child(3){
+    width: 177px;
+    height: 46px;
+    left: calc(50% - 177px/2 - 102px);
+    top: calc(50% - 46px/2 - 4px);
+}
+.form .form-control:nth-child(4){
+    width: 189px;
+    height: 46px;
+    left: calc(50% - 189px/2 + 97px);
+    top: calc(50% - 46px/2 - 4px);
+}
+.form .form-control:nth-child(5){
+    height: 116px;
+left: calc(50% - 382px/2 + 0.5px);
+top: calc(50% - 116px/2 + 93px);
+}
+.form button{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+position: absolute;
+width: 383px;
+height: 53px;
+left: calc(50% - 383px/2 + 0.5px);
+top: calc(50% - 53px/2 + 209.5px);
+
+background: #FCB371;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+.form .btn-submit{
+
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0
+}
